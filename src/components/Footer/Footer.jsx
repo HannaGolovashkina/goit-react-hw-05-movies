@@ -1,5 +1,5 @@
 import Container from 'components/Container/Container';
-import { FooterWrapper, Wrapper, Copyright, Studios } from './Footer.styled';
+import { FooterWrapper, Wrapper, Copyright } from './Footer.styled';
 
 function Footer() {
   return (
