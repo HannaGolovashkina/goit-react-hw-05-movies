@@ -10,7 +10,7 @@ import {
 
 export const HeaderWrapper = styled.header`
   background-image: ${mainGradient};
-  padding: 50px 0 50px 0;
+  padding: 25px 0 25px 0;
 `;
 
 export const LogoWrapper = styled.div`

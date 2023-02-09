@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import getTrending from 'API/get-trending';
 import Container from 'components/Container/Container';
 import MoviesList from 'components/MoviesList/MoviesList';
-
+import {Trending} from './HomePage.styled';
 function HomePage() {
   const [movies, setMovies] = useState(null);
 
@@ -31,6 +31,7 @@ function HomePage() {
   return (
     movies && (
       <Container>
+        <Trending>Trending today</Trending>
         <MoviesList movies={movies} />
       </Container>
     )
