@@ -6,8 +6,7 @@ function Footer() {
     <FooterWrapper>
       <Container>
         <Wrapper>
-          <Copyright>© MOVIE.search 2022</Copyright>
-          <Studios>BS</Studios>
+          <Copyright>© MOVIE.search 2023</Copyright>
         </Wrapper>
       </Container>
     </FooterWrapper>
